@@ -1,0 +1,16 @@
+.menu {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.menuIcon {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-text);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.menuIcon:hover {
+  color: var(--primary-text);
+}

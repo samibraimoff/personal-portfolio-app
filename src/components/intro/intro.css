@@ -1,0 +1,22 @@
+.intro {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 2rem 0;
+  margin: 10rem 0 5rem 0;
+}
+
+.wrapper {
+  padding: 0 3rem;
+}
+
+.intro h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  width: 85%;
+}
+
+.intro h3 {
+  color: var(--secondary-text);
+}

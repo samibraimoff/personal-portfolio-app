@@ -1,0 +1,75 @@
+.contact {
+  margin: 5rem 0;
+}
+
+.wrapper {
+  padding: 0 3rem;
+}
+
+.contactContainer {
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid var(--secondary-text);
+  padding: 3rem 2rem;
+}
+
+.contactRight {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contactRight h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  width: 85%;
+}
+
+.contactLeft {
+  flex: 1;
+}
+
+.contactLeft form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactLeft form h3 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  color: var(--secondary-text);
+}
+.contactLeft form label {
+  margin: 0.5rem 0;
+}
+
+.contactLeft form input {
+  border: none;
+  outline: none;
+  padding: 1rem 0.5rem;
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+.contactLeft form textarea {
+  border: none;
+  outline: none;
+  padding: 1rem 0.5rem;
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+.contactBtn {
+  border: 1px solid var(--primary-text);
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  background-color: var(--primary-text);
+  color: whitesmoke;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
