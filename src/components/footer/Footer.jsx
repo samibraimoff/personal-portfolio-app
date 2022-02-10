@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css';
 import { SiEagle } from 'react-icons/si';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href='#portfolio'>Portfolio</a>
+              <Link to='/projects'>Projects</Link>
             </li>
           </ul>
         </div>
