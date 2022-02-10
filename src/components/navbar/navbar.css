@@ -5,9 +5,10 @@ nav {
   padding: 1rem 0;
 }
 
-.logoContainer {
+.logoContainer a {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .logoContainer h3 {

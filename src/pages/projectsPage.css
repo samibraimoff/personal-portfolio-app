@@ -1,0 +1,29 @@
+.projectsPage {
+  margin-top: 6rem;
+}
+
+.projectBtnContainer {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.projectBtnContainer a {
+  display: flex;
+  align-items: center;
+}
+
+.projectIcon {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--primary-text);
+  font-weight: 700;
+}
+
+.projectBtnContainer span {
+  color: var(--primary-text);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: lowercase;
+}

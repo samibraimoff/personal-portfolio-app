@@ -1,21 +1,20 @@
 import React from 'react';
 import './App.css';
-import About from './components/about/About';
-import Intro from './components/intro/Intro';
-import Navbar from './components/navbar/Navbar';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import MenuButtons from './components/menu/MenuButtons';
+import Home from './pages/HomePage';
+import ProjectPage from './pages/ProjectPage';
+import { Switch, Route } from 'react-router-dom';
 
 const App = () => {
   return (
     <div className='container'>
-      <Navbar />
-      <Intro />
-      <About />
-      <Contact />
-      <Footer />
-      <MenuButtons />
+      <Switch>
+        <Route path='/' exact>
+          <Home />
+        </Route>
+        <Route path='/projects'>
+          <ProjectPage />
+        </Route>
+      </Switch>
     </div>
   );
 };

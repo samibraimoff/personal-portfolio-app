@@ -1,0 +1,36 @@
+.project {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.projectLeft {
+  flex: 1;
+  padding: 1rem 1rem;
+}
+.projectLeft img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.projectRight {
+  flex: 2;
+  padding: 1rem 1rem;
+}
+
+.projectRight p {
+  width: 80%;
+}
+
+.projectRight ul {
+  display: flex;
+}
+
+.projectRight ul li {
+  margin: 1rem 1rem 0 0;
+}
+
+.projectIcon {
+  cursor: pointer;
+  font: 2rem;
+}

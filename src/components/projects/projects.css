@@ -1,0 +1,7 @@
+.projects h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  width: 85%;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
