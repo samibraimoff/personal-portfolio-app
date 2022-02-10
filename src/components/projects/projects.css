@@ -5,3 +5,12 @@
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+  .projects h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+  }
+}

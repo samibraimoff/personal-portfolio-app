@@ -34,3 +34,37 @@
   cursor: pointer;
   font: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+  .project {
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+
+  .projectLeft {
+    padding: 0.3rem 0.5rem;
+  }
+
+  .projectRight {
+    padding: 0.3rem 0.5rem;
+  }
+
+  .projectRight h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .projectRight p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .projectRight ul {
+    justify-content: center;
+  }
+
+  .projectRight ul li {
+    margin: 0.4rem 1rem 0 0;
+  }
+}
