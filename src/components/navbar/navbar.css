@@ -43,3 +43,27 @@ nav {
   border-radius: 0.5rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .logoContainer {
+    margin-bottom: 1rem;
+  }
+
+  .navRight ul {
+    flex-wrap: wrap;
+  }
+
+  .navRight ul li a {
+    margin-left: 0.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+
+  .navBtn {
+    padding: 0.2rem 0.5rem;
+  }
+}

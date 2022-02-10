@@ -2,10 +2,6 @@
   margin: 5rem 0;
 }
 
-.wrapper {
-  padding: 0 3rem;
-}
-
 .aboutTop {
   display: flex;
   margin: 5rem 0;
@@ -76,4 +72,64 @@
   margin: 0.3rem;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+  .aboutTopLeft img {
+    height: 20rem;
+  }
+  .wrapper {
+    padding: 0 1rem;
+  }
+  .aboutTop {
+    flex-direction: column;
+  }
+
+  .aboutTopRight {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .aboutTopRight h2 {
+    font-size: 2rem;
+  }
+  .aboutTopRight h3 {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+
+  .aboutBottom {
+    flex-direction: column;
+  }
+
+  .aboutme {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutme h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutme h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutBottomRight {
+    margin-top: 2rem;
+  }
+
+  .aboutBottomRight h2 {
+    text-align: center;
+  }
+
+  .aboutBottomRight ul {
+    display: flex;
+  }
+
+  .aboutBottomLeft h2 {
+    text-align: center;
+  }
 }

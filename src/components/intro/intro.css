@@ -3,7 +3,6 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 2rem 0;
   margin: 10rem 0 5rem 0;
 }
 
@@ -23,4 +22,28 @@
 
 .intro h3 a {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    margin: 3rem 0 1rem 0;
+  }
+
+  .intro h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+  }
+
+  .intro h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper {
+    padding: 0 2rem;
+  }
 }

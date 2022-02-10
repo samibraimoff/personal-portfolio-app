@@ -1,7 +1,3 @@
-.wrapper {
-  padding: 0 3rem;
-}
-
 .footer p {
   font-weight: 500;
   font-size: 1rem;
@@ -39,4 +35,19 @@
   margin-right: 0.5rem;
   font-size: 1rem;
   color: var(--secondary-text);
+}
+
+@media screen and (max-width: 480px) {
+  .footerTop {
+    flex-direction: column;
+  }
+
+  .footerBottom {
+    margin: 1rem 0;
+  }
+
+  .footerBottom p {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
 }
