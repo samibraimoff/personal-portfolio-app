@@ -1,7 +1,7 @@
 import React from 'react';
 import './project.css';
-import { GrLinkedin } from 'react-icons/gr';
 import { FaGlobe } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
 
 const Project = ({ project }) => {
   return (
@@ -15,7 +15,7 @@ const Project = ({ project }) => {
         <ul>
           <li>
             <a href={project.github} target='_blank' rel='noreferrer'>
-              <GrLinkedin className='projectIcon' />
+              <FaGithubSquare className='projectIcon' />
             </a>
           </li>
           <li>
