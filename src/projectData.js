@@ -33,4 +33,12 @@ export const projectsData = [
     link: 'https://lucid-poitras-d94570.netlify.app/',
     github: 'https://github.com/samibraimoff/e-commerce-app',
   },
+  {
+    id: 5,
+    name: 'OMDB web app - search for favourite movies and tv shows.',
+    img: '/assets/omdb.png',
+    description: 'Movies and shows website utilizing OMDB API and Redux store.',
+    link: 'https://myomdb-api-app.netlify.app/',
+    github: 'https://github.com/samibraimoff/omdb-api-app',
+  },
 ];
