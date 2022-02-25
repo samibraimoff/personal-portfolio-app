@@ -33,7 +33,7 @@ const About = () => {
               <h3>
                 I am a software engineer with{' '}
                 <strong>frontend development</strong> experience and bachelor's
-                degree in computer systems and networks. I have 10+ years of
+                degree in computer systems and networks. I have 12 years of
                 engineering, information technology and sales experience which
                 gives me a solid background in software development.
               </h3>
