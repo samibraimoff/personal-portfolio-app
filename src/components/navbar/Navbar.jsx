@@ -32,7 +32,7 @@ const Navbar = () => {
             <Link to='/projects'>Projects</Link>
           </li>
           <li>
-            <a href='assets/SANDIBEK_IBRAIMOV.pdf' download className='navBtn'>
+            <a href='assets/SANDI_IBRAIM.pdf' download className='navBtn'>
               Resume
             </a>
           </li>
