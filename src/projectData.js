@@ -41,12 +41,12 @@ export const projectsData = [
     link: 'https://myomdb-api-app.netlify.app/',
     github: 'https://github.com/samibraimoff/omdb-api-app',
   },
-  {
-    id: 6,
-    name: 'Free soccer highlights app',
-    img: '/assets/football.png',
-    description: 'Free soccer highlights app, integrated by scorebat api.',
-    link: 'https://football-highlights-api.netlify.app/',
-    github: 'https://github.com/samibraimoff/football-video-app',
-  },
+  // {
+  //   id: 6,
+  //   name: 'Free soccer highlights app',
+  //   img: '/assets/football.png',
+  //   description: 'Free soccer highlights app, integrated by scorebat api.',
+  //   link: 'https://football-highlights-api.netlify.app/',
+  //   github: 'https://github.com/samibraimoff/football-video-app',
+  // },
 ];
